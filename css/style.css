@@ -9,6 +9,31 @@
 body{
     background: #252525;
 }
+header{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#943e3c , #252525);
+    padding: 10px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#navbar h3{
+    font-size: 22px;
+    font-family: Vavazinho;
+}
+
+#navbar a{
+    color: rgb(77, 19, 19);
+    font-size: 13px;
+    list-style-type: none;
+}
+#navbar a:hover{
+    color: #252525;
+    transition: .2s;
+}
 .title-container {
     text-align: center;
     width: 510px;
@@ -43,7 +68,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
-    padding-bottom: 306px;
+    padding-bottom: 233px;
 }
 
 .tile-row {
@@ -132,4 +157,47 @@ footer{
 }
 footer a{
     color: #943e3c;
+}
+#play{
+    padding-top: 35px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-family: Vavazinho;
+}
+#play h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+#play p{
+    width: 650px;
+    color: rgb(112, 112, 112);
+    background: rgb(122, 51, 51);
+    border-radius: 12px;
+}
+#players{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-bottom: 100px;
+}
+#elo-player{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 150px;
+    padding-top: 20px;
+    background: linear-gradient(#943e3c , #000000);
+    height: 300px;
+    width: 1200px;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    font-family: Vavazinho;
+}
+#player{
+    text-align: center;
 }

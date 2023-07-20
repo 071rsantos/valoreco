@@ -8,11 +8,12 @@ const keysFirstRow = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"];
 const keysSecondRow = ["A", "S", "D", "F", "G", "H", "J", "K", "L"];
 const keysThirdRow = ["Z", "X", "C", "V", "B", "N", "M"];
 
+
 const rows = 6;
 const columns = 5;
 let currentRow = 0;
 let currentColumn = 0;
-let letreco = "SPIKE";
+let letreco = "SMOKE";
 let letrecoMap = {};
 for (let index = 0; index < letreco.length; index++) {
   letrecoMap[letreco[index]] = index;
@@ -57,11 +58,15 @@ const checkGuess = () => {
     }
   }
 
+  if(currentRow === rows -2) {
+    window.alert("DICA: Controlador faz...")
+}
+
   if(guess === letreco) {
       window.alert("Palavra certa! Parabens!!!")
       return
   } {
-      if(currentRow === rows -1) {
+     if(currentRow === rows -1) {
           window.alert("Errrrrrou!")
       } else {
           moveToNextRow()
