@@ -28,25 +28,25 @@ menosdez.addEventListener('click' , voltarVideo)
 
 ferro.addEventListener('click', respostaErrada)
 bronze.addEventListener('click', respostaErrada)
-prata.addEventListener('click', respostaErrada)
 ouro.addEventListener('click', respostaErrada)
 plat.addEventListener('click', respostaErrada)
 dima.addEventListener('click', respostaErrada)
+asce.addEventListener('click', respostaCerta)
 imo.addEventListener('click', respostaErrada)
 rad.addEventListener('click', respostaErrada)
-asce.addEventListener('click', respostaCerta)
+prata.addEventListener('click', respostaCerta)
 
 function respostaErrada(){
     alert("ERROOOOOUUU!!!!!")
-    logo.src = "img/ascendente3.png"
+    logo.src = "img/prata 3.png"
     nick.innerHTML = 'ERROU!!!!'
-    legenda.innerHTML ='Play do kaeL #1001, no video ele era Ascendente 1, atualmente está Ascentdente 3.'
+    legenda.innerHTML ='Play do Darth Fader #KINGS, atualmente está Prata 3.'
   }
 function respostaCerta(){
     alert("BOA!!!! ACERTOU ALGUMA COISA NA VIDA!!!")
-    logo.src = "img/ascendente3.png"
+    logo.src = "img/prata 3.png"
     nick.innerHTML = 'ACERTOU!!!!'
-    legenda.innerHTML ='Play do kaeL #1001, no video ele era Ascendente 1, atualmente está Ascentdente 3.'
+    legenda.innerHTML ='Play do Darth Fader #KINGS, atualmente está Prata 3.'
 }
 
 function controleVideo(){

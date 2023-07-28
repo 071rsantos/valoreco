@@ -10,10 +10,10 @@ const keysThirdRow = ["Z", "X", "C", "V", "B", "N", "M"];
 
 
 const rows = 6;
-const columns = 5;
+const columns = 6;
 let currentRow = 0;
 let currentColumn = 0;
-let letreco = "SMOKE";
+let letreco = "OTSUKA";
 let letrecoMap = {};
 for (let index = 0; index < letreco.length; index++) {
   letrecoMap[letreco[index]] = index;
@@ -59,7 +59,7 @@ const checkGuess = () => {
   }
 
   if(currentRow === rows -2) {
-    window.alert("DICA: Controlador faz...")
+    window.alert("DICA: BIIIIIG SMAAASH BUUUUURGUER...")
 }
 
   if(guess === letreco) {
